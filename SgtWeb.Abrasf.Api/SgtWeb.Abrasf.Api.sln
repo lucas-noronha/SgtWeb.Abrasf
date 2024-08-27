@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SgtWeb.Abrasf.Api", "SgtWeb.Abrasf.Api.csproj", "{7B429F23-1D69-4E07-8034-17DB4FC4471B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SgtWeb.Abrasf.Domain", "..\SgtWeb.Abrasf.Domain\SgtWeb.Abrasf.Domain.csproj", "{4598CF4D-E1D5-4106-A5FA-B02910249D7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B429F23-1D69-4E07-8034-17DB4FC4471B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B429F23-1D69-4E07-8034-17DB4FC4471B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B429F23-1D69-4E07-8034-17DB4FC4471B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B429F23-1D69-4E07-8034-17DB4FC4471B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4598CF4D-E1D5-4106-A5FA-B02910249D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4598CF4D-E1D5-4106-A5FA-B02910249D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4598CF4D-E1D5-4106-A5FA-B02910249D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4598CF4D-E1D5-4106-A5FA-B02910249D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C894AB8D-790D-427E-9012-D0191DBB2F66}
+	EndGlobalSection
+EndGlobal

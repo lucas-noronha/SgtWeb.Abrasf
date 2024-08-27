@@ -1,0 +1,6 @@
+@SgtWeb.Abrasf.Api_HostAddress = http://localhost:5009
+
+GET {{SgtWeb.Abrasf.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
