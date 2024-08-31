@@ -21,8 +21,8 @@ app.UseAuthorization();
 // Configurar o endpoint SOAP usando middleware
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapControllers();
-    endpoints.UseSoapEndpoint<IMySoapService>("/Service.svc", new SoapEncoderOptions(), SoapSerializer.XmlSerializer);
+    _ = endpoints.MapControllers();
+    _ = endpoints.UseSoapEndpoint<IMySoapService>("/Service.asmx", new SoapEncoderOptions(), SoapSerializer.XmlSerializer);
 });
 
 app.Run();

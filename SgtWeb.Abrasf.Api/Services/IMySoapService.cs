@@ -1,8 +1,8 @@
 ﻿using SgtWeb.Abrasf.Domain.TiposCompostos.TiposServicos.GeracaoNfse;
+using SoapCore.Extensibility;
 using System.ServiceModel;
 
 namespace SgtWeb.Abrasf.Api.Services;
-
 
 [ServiceContract]
 public interface IMySoapService
@@ -11,5 +11,6 @@ public interface IMySoapService
     string SayHello(string name);
 
     [OperationContract]
-    GerarNfseResposta GerarNfseEnvio(string Rps);
+    string GerarNfseEnvio(string user_header, string user_data);
 }
+

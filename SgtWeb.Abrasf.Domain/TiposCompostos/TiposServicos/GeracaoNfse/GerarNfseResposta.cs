@@ -12,8 +12,12 @@ namespace SgtWeb.Abrasf.Domain.TiposCompostos.TiposServicos.GeracaoNfse
     public class GerarNfseResposta
     {
         [XmlElement(ElementName = "ListaNfse")]
-        public ListaNfse ListaNfse { get; set; }
+        public ListaNfse? ListaNfse { get; set; }
+        
         [XmlElement(ElementName = "ListaMensagemRetorno")]
-        public ListaMensagemRetorno ListaMensagemRetorno { get; set; }
+        public ListaMensagemRetorno? ListaMensagemRetorno { get; set; }
     }
+
+    
+
 }

@@ -3,10 +3,11 @@ using System.Xml.Serialization;
 
 namespace SgtWeb.Abrasf.Domain.TiposCompostos.TiposServicos.GeracaoNfse
 {
+    [Serializable]
     public class GerarNfseEnvio
     {
         [XmlElement(ElementName = "Rps")]
-        public string Rps { get; set; }
+        public tcDeclaracaoPrestacaoServico Rps { get; set; }
         
     }
 }
