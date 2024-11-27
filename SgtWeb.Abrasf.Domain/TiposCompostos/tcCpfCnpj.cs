@@ -16,5 +16,18 @@ namespace SgtWeb.Abrasf.Domain.TiposCompostos
         [XmlElement(ElementName = "Cnpj")]
         [MaxLength(14)]
         public string Cnpj { get; set; }
+
+
+        public string GetCpfCnpj()
+        {
+            if (!string.IsNullOrEmpty(Cpf))
+            {
+                return Cpf;
+            }
+            else
+            {
+                return Cnpj;
+            }
+        }
     }
 }

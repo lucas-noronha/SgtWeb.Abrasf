@@ -11,6 +11,6 @@ public interface IMySoapService
     string SayHello(string name);
 
     [OperationContract]
-    string GerarNfseEnvio(string user_header, string user_data);
+    Task<string> GerarNfseEnvio(string user_header, string user_data);
 }
 
